@@ -4,6 +4,9 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 from nltk.tag import pos_tag
 from nltk.chunk import conlltags2tree, tree2conlltags
+import wikipedia
+import googletrans 
+from googletrans import Translator
 ps = PorterStemmer()
 
 ## Here we check what the input from the user was and then determine which case
