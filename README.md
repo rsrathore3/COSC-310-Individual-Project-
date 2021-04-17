@@ -37,8 +37,8 @@ More varried responses (some not shown, bad RNG)
 
 - Use of Public APIs 
  
- >Wikipedia: Robot Robert uses the Wikipedia API (https://pypi.org/project/wikipedia/) which makes it easy to access and parse data from Wikipedia.
+ -Wikipedia API
+  >Robot Robert uses the Wikipedia API (https://pypi.org/project/wikipedia/) which makes it easy to access and parse data from Wikipedia.
  
- >GoogleTranslate: Robot Robert uses the Google Translate API (https://pypi.org/project/googletrans2/) that implemented Google Translate API and converts English to Japanese. 
-
-
+ -GoogleTranslate API 
+  >Robot Robert uses the Google Translate API (https://pypi.org/project/googletrans2/) that implemented Google Translate API and converts English to Japanese. 
