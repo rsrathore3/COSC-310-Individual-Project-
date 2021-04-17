@@ -25,6 +25,21 @@ def psStem(e):
     ## stem each word, and recombine the stemmed sentence.
     return stemmed
 
+##Wikipedia API 
+def wikipediaSearch(query):
+    ##This line of code will extract information from the Wikipedia public API and
+    #  produce 3 sentences regarding the query that has been passed 
+    return(wikipedia.summary(query, sentences=3))
+
+##GoogleTranslateAPI
+def changeLanguage(e): 
+    ##switchLanguage is initialised as the translator()
+    switchLanguage = Translator()
+    ##output will store the switched language sentence in Japanese from English
+    output = switchLanguage.translate(e,dest = 'ja')
+    ##The sentence in Japanese will be forwarded further
+    return output.text
+
 def getPOS(e):
     words = e.split()
     sent = nltk.pos_tag(words)
@@ -180,6 +195,20 @@ def interpolate(opcode, e):
             
         elif psStem("Can I ask you some personal questions") in phrase: 
             return (res.formulateResponse (32,"")) 
+        
+        elif psStem("I want your knowledge regarding ") in phrase:
+            ##Temp stores the words the word of the sentence 
+            temp = e.split()
+            ##Query stores the last word of the sentence which will be used in the API 
+            query = temp [-1]
+            ##Search holds the answer for the query from the API 
+            search = wikipediaSearch(query)
+            ## This is the response 
+            return (res.formulateResponse(39,search)) 
+
+        elif psStem("Say this in Japanese") in phrase:
+            sentence = changeLanguage(e) 
+            return(res.formulateResponse(40,sentence))
 
         ## If we couldn't find a match in the input, return "I don't understand."
         else :
