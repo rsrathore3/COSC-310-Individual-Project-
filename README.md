@@ -37,9 +37,9 @@ GUI
 More varried responses (some not shown, bad RNG)
 
 - Use of Public APIs 
- 
+   <img width="500" alt="COSC_310_screenshot" src="https://user-images.githubusercontent.com/79660865/115100374-c91da100-9f59-11eb-849c-0351fab72065.png">
+  
  -Wikipedia API
-  <img width="500" alt="COSC_310_screenshot" src="https://user-images.githubusercontent.com/79660865/115100374-c91da100-9f59-11eb-849c-0351fab72065.png">
   >Robot Robert uses the Wikipedia API (https://pypi.org/project/wikipedia/) which makes it easy to access and parse data from Wikipedia.
  
  -GoogleTranslate API 
