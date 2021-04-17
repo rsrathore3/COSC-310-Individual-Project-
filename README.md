@@ -35,3 +35,10 @@ GUI
 ![RANDOM](https://github.com/COSC-310-Group-24/Assignment-2/blob/main/Images/random.png?raw=true "Demonstration of Responses")
 More varried responses (some not shown, bad RNG)
 
+- Use of Public APIs 
+ 
+ >Wikipedia: Robot Robert uses the Wikipedia API (https://pypi.org/project/wikipedia/) which makes it easy to access and parse data from Wikipedia.
+ 
+ >GoogleTranslate: Robot Robert uses the Google Translate API (https://pypi.org/project/googletrans2/) that implemented Google Translate API and converts English to Japanese. 
+
+
