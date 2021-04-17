@@ -43,10 +43,12 @@ More varried responses (some not shown, bad RNG)
  -Wikipedia API
   >Robot Robert uses the Wikipedia API (https://pypi.org/project/wikipedia/) which makes it easy to access and parse data from Wikipedia. Having this Wikipedia feature in 
   >Robot Robert makes it more informative and increases curiosity amongst the users. Robot Robert is also focused on giving the maximum amount of information in the specified
-  > number of sentences
+  > number of sentences. Also having such an API makes the conversation longer and meaningful for the user to continue asking intrguing questions from Robot Robert. Overall, 
+  > usage of Wikipedia API has made Robot Robert as efficient as ever. 
   
 
  -GoogleTranslate API 
   >Robot Robert uses the Google Translate API (https://pypi.org/project/googletrans2/) that implemented Google Translate API and converts English to Japanese. This feature
   >from the public API makes Robot Robert highly inclusive and multi lingual. As a developer, I chose Japanese as the language because I personally want to learn Japanese and 
-  >starting out with my own chatbot doesn't seem to be a bad idea. 
+  >starting out with my own chatbot doesn't seem to be a bad idea. I would be interested in further developing this feature of Robot Robert, it would be interesting to have 
+  >Robot Robert speak more than languages than just English and Japanese. 
