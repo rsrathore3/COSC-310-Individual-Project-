@@ -103,6 +103,12 @@ def interpolate(opcode, e):
         if team == 'N/A': return (res.formulateResponse(36))
         elif psStem("don't watch hockey") in phrase: return (res.formulateResponse(37))
         else: return (res.formulateResponse(38, team))
+        
+    elif int(opcode) == 5:
+        translatedsentence = changeLanguage(e)
+
+        return(res.formulateResponse(40, translatedsentence))
+
 
     ## If we've exhausted the possible opcodes, just check for string matching.
     else:    
@@ -208,10 +214,6 @@ def interpolate(opcode, e):
             search = wikipediaSearch(query)
             ## This is the response 
             return (res.formulateResponse(39,search)) 
-
-        elif psStem("Say this in Japanese") in phrase:
-            sentence = changeLanguage(e) 
-            return(res.formulateResponse(40,sentence))
 
         ## If we couldn't find a match in the input, return "I don't understand."
         else :
