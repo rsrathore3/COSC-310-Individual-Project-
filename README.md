@@ -1,3 +1,4 @@
+<img width="539" alt="COSC_310_screenshot" src="https://user-images.githubusercontent.com/79660865/115100374-c91da100-9f59-11eb-849c-0351fab72065.png">
 # COSC 310 Individual Assignment 
 ![Cute lil robot!](https://upload.wikimedia.org/wikipedia/commons/7/75/Kawaii_robot_power_clipart.svg)
 
