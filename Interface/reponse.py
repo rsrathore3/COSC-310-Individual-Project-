@@ -128,4 +128,10 @@ def formulateResponse(code, val):
 
     elif code == 38:
         return ("1Robert: You like the " + val + "? Awesome!\n")
+    
+    elif code == 39:
+        return ("1Robert: " + val + "\n")
+    
+    elif code == 40:
+        return ("1Robert: " + val + "\n")
 
